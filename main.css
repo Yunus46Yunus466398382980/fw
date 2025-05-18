@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DM Serif Display;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.nav__ul{
+    display: flex;
+    gap: 40px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    margin-top: 40px;
+    color: #356368;
+}
+
+.nav__link{
+    font-family: 'Public sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.nav__btn{
+    background-color: #ba4270;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+
+.nav__btn:hover {
+    background-color: transparent;
+    border: 2px solid #ba4270;
+    color: #ba4270;
+}
+
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 218px;
+}
+
+.header__content h1{
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.55px;
+    color: #356368;
+    max-width: 546px;
+}
+
+.menu{
+    display: none;
+}
+
+.p{
+    font-family: Public Sans;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+letter-spacing: 0px;
+    width: 445px;
+height: 84px;
+top: 80px;
+
+}
+
+.h1{
+    font-family: DM Serif Display;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.37px;
+
+}
+
+.img__index{
+    display: flex;
+    align-items: center;
+}
+
+.Pes__finans{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 180px;
+}
+
+p{
+    font-family: Public Sans;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: -0.14px;
+text-align: center;
+
+}
+
+.konew{
+    width: 1521px;
+height: 100px;
+top: 1553px;
+background-color: #1B262F;
+margin-top: 103px;
+display: flex;
+align-items: center;
+gap: 20px;
+justify-content: space-evenly;
+}
+
+.konew a {
+    color: #FBFCFE;
+    font-family: Public Sans;
+font-weight: 700;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0px;
+
+}
+
+.payapi{
+    display: flex;
+    gap: 10px;
+}
+
+
+@media (max-width: 992px){
+       .header__content{
+        flex-direction: column-reverse;
+        gap: 100px;
+       }
+}
+
+@media(max-width:650px){
+    .nav ul{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+    }
+}
+@media(max-width:612px){
+    .img__index{
+    
+        flex-direction: column;
+    }
+}
